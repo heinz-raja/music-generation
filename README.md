@@ -12,8 +12,12 @@ Then these images would be used to train the GAN. The results were not very impr
 
 https://github.com/heinz-raja/music-generation/assets/41283762/ec8c5498-80f4-4284-937e-a322143307cf
 
+There are a lot of random pauses and offkey notes I also observed mode collapse and non convergence. 
+
 For the next approach I used LSTMs and worked with the audio directly. LSTMs are good because they make use of sequential information and can recognize long term patterns. This provided much better results and actually made use of chords and notes which are in key. You can listen to a sample below. 
 
 
 https://github.com/heinz-raja/music-generation/assets/41283762/8822637d-e3be-42fc-a48a-fa867b6d80b1
+
+Results are much better however this just plays the next set of notes which fit in, there is work to be done in creating a 'story' with different sections with buildup and resolution.
 
