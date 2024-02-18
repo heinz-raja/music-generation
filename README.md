@@ -3,7 +3,7 @@ Using GANs and LSTMs to create artificial music
 
 This model generates new music by training on original compositions.
 
-Initial approach was to convert songs to a series of images as shown below
+The initial approach was to convert songs to a series of images as shown below
 
 ![image](https://github.com/heinz-raja/music-generation/assets/41283762/15d70391-03b1-4c73-a8c0-21e561ff1ab0)
 
